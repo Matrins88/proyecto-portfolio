@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: space-around;
+ padding-top: 1rem;
+ background-color: blueviolet;
+ font-size: 4rem;
+}
+main{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ background-color: aqua;
+
+}
+.img{
+    width: 40%;
+    height: auto;
+}
+    
+.boton{
+    padding: 0.8%;
+    background-color: rgb(9, 189, 39);
+    display: flex;
+    justify-content: space-around;
+    font-size: 5rem;
+    list-style: none;
+   
+}
+.present{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-items: center;
+    gap: 2rem;
+    
+}
+.chik{
+    width: 110%;
+    height: auto;
+    
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#trini{
+    font-size: 9rem;
+}
+.present p {
+    font-size: 4rem;       
+    margin: 2rem 0;        
+    padding: 7rem;         
+    background-color: #f7690a; 
+    color: bisque;
+    width: 200%;            
+    max-width: 2000px;      
+    text-align: justify;   
+    border-radius: 10px;   
+}
+
+.holas{
+    width: 100%;
+    height: auto;
+}
+hr {
+    border: none;                        
+    height: 4px;                        
+    background: linear-gradient(to right, #3498db, #e74c3c); 
+    margin: 20px 0;                    
+}
+.link{
+    display: flexbox;
+
+}
+a{
+    font-size: 4rem;
+
+}
+a:hover {
+    background-color: #2980b9;   /* Cambia el fondo al pasar el mouse */
+}
+.parte{
+    display: grid;                                
+    grid-template-columns: repeat(3, 1fr);       
+    grid-template-rows: auto;                     
+    gap: 20px;                                    
+    margin: 20px;
+}
+.parte div {
+    font-size: 3rem;
+    background-color: #f2f2f2;                    
+    padding: 20px;                              
+    border: 1px solid #ccc;                       
+    border-radius: 5px;                           
+    text-align: center;                            
+}
+footer{
+    background-color: #401556;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(3, 1fr) ;
+ 
+
+  
+   
+}
+.tex{
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+    background-color: #e74c3c;
+}
